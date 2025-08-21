@@ -1,7 +1,7 @@
 import random
 
 def jogo(jogador1, jogador2):
-    # Dicionário para mapear escolhas para emojis
+    # Dicionário de escolhas para emojis
     emojis = {
         "pedra": "🪨",
         "papel": "📄",
@@ -23,4 +23,5 @@ def jogo(jogador1, jogador2):
 opcoes = ["pedra", "papel", "tesoura"]
 jogador1 = input("Digite pedra, papel ou tesoura: ").lower()
 jogador2 = random.choice(opcoes)
+
 jogo(jogador1, jogador2)
